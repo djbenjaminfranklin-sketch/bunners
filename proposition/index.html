@@ -98,6 +98,8 @@ p{margin:0 0 12px;max-width:68ch}
 .tablebox{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;overflow-x:auto}
 
 .steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:8px}
+.steps.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+.star{font-size:13px;color:var(--muted);margin-top:12px}
 .step{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px}
 .step .w{font-family:var(--mono);font-weight:700;color:var(--deep);font-size:13px}
 .step h3{margin:4px 0 8px;font-size:17px}
@@ -232,18 +234,20 @@ p{margin:0 0 12px;max-width:68ch}
 <section>
   <div class="wrap">
     <div class="eyebrow">Ce que ça coûte</div>
-    <h2>Un seul paiement, et tout est à toi</h2>
+    <h2>Une mise en place, et tout est à toi</h2>
     <div class="price">
       <div class="offer">
         <div class="eyebrow" style="color:var(--deep)">Les deux paquets</div>
-        <div class="amount">2 500 €<small>une seule fois, sans abonnement</small></div>
+        <div class="amount">2 500 €*<small>mise en place, une seule fois</small></div>
         <ul>
           <li>Les deux paquets, construits à tes couleurs avec ta vraie carte</li>
           <li>L'installation sur ta caisse, ta tablette cuisine et ta télé</li>
           <li>La création des comptes à ton nom (paiement, WhatsApp, serveur)</li>
           <li>La formation de ton équipe et 2 à 3 services accompagnés sur place</li>
         </ul>
-        <p class="muted" style="margin:0;font-size:14px">Avec 5 commandes par jour passées sur ta page, c'est remboursé en moins de 3 mois.</p>
+        <div class="deal"><b>Maintenance mensuelle : à définir ensemble.</b><br>Mises à jour, corrections, nouvelles fonctions et assistance quand tu en as besoin.</div>
+        <p class="muted" style="margin:0;font-size:14px">Avec 5 commandes par jour passées sur ta page, la mise en place est remboursée en moins de 3 mois.</p>
+        <p class="star" style="margin:0">* Matériel non compris : la télé de salle, la tablette cuisine et la clé TV sont à acheter par toi (voir le tableau). Ils sont indispensables : sans eux, je ne peux pas installer le système.</p>
       </div>
       <div class="tablebox">
         <table class="costs">
@@ -254,6 +258,7 @@ p{margin:0 0 12px;max-width:68ch}
             <tr><td>Messages WhatsApp de promo (tarif Meta)</td><td>quelques centimes<br>par message</td></tr>
             <tr><td>Tablette pour la cuisine</td><td>150 à 200 €</td></tr>
             <tr><td>Clé Android TV ou Fire TV pour la télé</td><td>40 à 60 €</td></tr>
+            <tr><td>Télé de salle, si tu n'en as pas déjà une</td><td>à partir de ≈ 200 €</td></tr>
             <tr><td>Nom de domaine (ex. bunners.es), facultatif</td><td>≈ 15 €/an</td></tr>
             <tr><td>Ta caisse SunPOS actuelle</td><td>déjà là</td></tr>
           </tbody>
@@ -266,12 +271,12 @@ p{margin:0 0 12px;max-width:68ch}
 <section>
   <div class="wrap">
     <div class="eyebrow">Calendrier</div>
-    <h2>En place en 2 à 3 semaines</h2>
-    <div class="steps">
-      <div class="step"><div class="w">SEMAINE 1</div><h3>Construction</h3><ul><li>Le système à tes couleurs, avec ta carte</li><li>Ouverture de ton compte de paiement</li><li>Validation de WhatsApp Business par Meta</li></ul></div>
-      <div class="step"><div class="w">SEMAINE 2</div><h3>Installation et essais</h3><ul><li>Caisse, tablette cuisine et télé branchées</li><li>Essais en vrai pendant 2 à 3 services, un soir de rush compris</li><li>Formation de ton équipe</li></ul></div>
-      <div class="step"><div class="w">SEMAINE 3</div><h3>Lancement</h3><ul><li>QR code sur ta vitrine et dans les sacs</li><li>Lien de ta page sur Instagram et Google Maps</li><li>Première promo WhatsApp</li></ul></div>
+    <h2>En place en 2 semaines*</h2>
+    <div class="steps two">
+      <div class="step"><div class="w">SEMAINE 1</div><h3>Construction</h3><ul><li>Le système à tes couleurs, avec ta carte</li><li>Ouverture de ton compte de paiement</li><li>Validation de WhatsApp Business par Meta</li><li>Tu achètes le matériel (télé, tablette cuisine, clé TV)</li></ul></div>
+      <div class="step"><div class="w">SEMAINE 2</div><h3>Installation, essais et lancement</h3><ul><li>Caisse, tablette cuisine et télé branchées</li><li>Essais en vrai pendant 2 à 3 services, un soir de rush compris</li><li>Formation de ton équipe</li><li>QR code en vitrine, lien sur Instagram et Google Maps</li></ul></div>
     </div>
+    <p class="star">* À condition que le matériel soit acheté et livré avant la semaine 2 : sans écrans, je ne peux pas installer le système.</p>
   </div>
 </section>
 
